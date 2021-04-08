@@ -1,0 +1,161 @@
+@media(max-width: 990px){
+
+    /* pricing */
+
+    ._pricing .pricing h1,
+    ._pricing .pricingg h1{
+        font-size: 25px;
+    }
+}
+@media(max-width: 900px){
+
+    /* hero */
+
+    .hero{
+        display: block;
+    }
+
+    .hero .pic,
+    .hero .intro{
+        width: 100%;
+    }
+
+    .hero .intro h2{
+        font-size: 30px;
+    }
+
+    .hero button{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    /* pwa */
+
+    .PWAexplain .container{
+        display: block;
+    }
+    
+    .PWAexplain .img,
+    .PWAexplain .pwa{
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 770px){
+
+    /* summary */
+
+    .summary .container{
+        display: block;
+    }
+
+    .summary .webiappEx,
+    .summary .img{
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* services */
+    .services1,
+    .services2{
+        padding: 30px 0 30px 0;
+    }
+
+    .services1 i{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .services1 p,
+    .services2 p{
+        font-size: 12px;
+    }
+
+    .services2 i{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    /* projects */
+
+    .projects .secBox img{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .projects .secBox p{
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    /* pricing */
+
+    ._pricing .pricing p{
+        font-size: 14px;
+    }
+
+    ._pricing .pricingg p{
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width: 770px){
+
+    /* payment schedule */
+
+    .paymentSchedule h1{
+        font-size: 25px;
+    }
+
+    .paymentSchedule p{
+        font-size: 12px;
+    }
+
+    .paymentSchedule .arrow i{
+        font-size: 20px;
+    }
+
+    /* cancelation */
+
+    .cancelation h1{
+        font-size: 25px;
+    }
+
+    .cancelation p{
+        font-size: 12px;
+    }
+
+    /* sdlc */
+
+    .sdlc .sdlcs1,
+    .sdlc .sdlcs2,
+    .sdlc .sdlcs3{
+        display: block;
+    }
+
+    .sdlc .boxsdlc{
+        width: 100%;
+        padding: 20px;
+    }
+
+}
+
+@media(max-width: 510px){
+
+    /* pricing */
+
+    ._pricing .pricings1,
+    ._pricing .pricings2{
+        display: block;
+    }
+
+    ._pricing .pricing,
+    ._pricing .pricingg{
+        width: 100%;
+        margin: 20px 0 20px 0;
+    }
+
+}

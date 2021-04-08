@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+/* global variables */
+
+.align{
+    text-align: left;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    font-size: 12px;
+}
+
+.align i{
+    color: green;
+}
+
+.blue{
+    color: rgb(35, 35, 110);
+}
+
+.green{
+    color: green;
+}
+
+.gray{
+    background: #e6e6e6;
+}
+
+/* header */
+
+header{
+    padding: 5px 0 5px 0;
+}
+
+header h1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+
+/* hero */
+
+.hero{
+    display: flex;
+}
+
+.hero .pic,
+.hero .intro{
+    width: 50%;
+}
+
+.hero .pic{
+    padding: 100px 40px 100px 40px;
+}
+
+.hero .pic img{
+    width: 100%;
+}
+
+.hero .intro{
+    background: rgb(35, 35, 110);
+    color: #fff;
+    text-align: left;
+    padding: 100px 40px 100px 40px;
+}
+
+.hero .intro h2{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.hero button{
+    font-size: 12px;
+    padding: 10px 30px 10px 30px;
+    background: none;
+    border: 2px #fff solid;
+    color: #fff;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition-property: background, color;
+    transition-duration: .5s;
+}
+
+.hero button:hover{
+    background: #fff;
+    color: rgb(22, 22, 169);
+}
+
+/* summary */
+
+.summary .container{
+    padding: 50px 0 50px 0;
+    display: flex;
+}
+
+.summary .webiappEx,
+.summary .img{
+    width: 50%;
+}
+
+.summary .webiappEx h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.summary .webiappEx p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.summary .img img{
+    width: 100%;
+}
+
+/* services */
+
+.services h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* services1 */
+
+.services1,
+.services2{
+    padding: 50px 0 50px 0;
+}
+
+.services1 .container,
+.services2 .container{
+    display: flex;
+}
+
+.services1 .box,
+.services2 .box{
+    width: 33%;
+    text-align: center;
+}
+
+.services1 i{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.services2 i{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+/* pwa */
+
+.PWAexplain{
+    padding: 50px 0 50px 0;
+}
+
+.PWAexplain .container{
+    display: flex;
+}
+
+.PWAexplain .img,
+.PWAexplain .pwa{
+    width: 50%;
+}
+
+.PWAexplain .img img{
+    width: 100%;
+}
+
+.PWAexplain .pwa h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.PWAexplain .pwa p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* pricing */
+
+._pricing {
+    padding: 50px 0 50px 0;
+}
+
+._pricing h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+._pricing .pricings1,
+._pricing .pricings2{
+    display: flex;
+}
+
+._pricing .pricing{
+    width: 33%;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background: #f4f4f4;
+    margin: 10px;
+}
+
+._pricing .pricingg{
+    width: 33%;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background: #dfdfdf;
+    margin: 10px;
+}
+
+._pricing .pricing h1{
+    color: rgb(35, 35, 110);
+}
+
+._pricing .pricingg h1{
+    color: rgb(35, 35, 110);
+}
+
+/* payment Schedule */
+
+.paymentSchedule{
+    padding: 50px 0 50px 0;
+    background: #f4f4f4;
+}
+
+.paymentSchedule h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.paymentSchedule hr{
+    font-size: 30px;
+    width: 30%;
+}
+
+.paymentSchedule .percents{
+    display: flex;
+}
+
+.paymentSchedule .percent,
+.paymentSchedule .arrow{
+    width: 20%;
+    padding: 20px 0 20px 0;
+}
+
+.paymentSchedule .arrow{
+    text-align: center;
+}
+
+.paymentSchedule .arrow i{
+    font-size: 30px;
+}
+
+/* project cancelation */
+
+.cancelation{
+    padding: 50px 0 50px 0;
+}
+
+.cancelation h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.cancelation .cancels{
+    display: flex;
+    padding: 20px 0 20px 0;
+}
+
+.cancelation .cancel{
+    padding: 10px;
+    width: 50%;
+}
+
+/* sdlc */
+
+.sdlc{
+    padding: 50px 0 50px 0;
+}
+
+.sdlc h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.sdlc h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.sdlc p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.sdlc .sdlcs1,
+.sdlc .sdlcs2,
+.sdlc .sdlcs3{
+    display: flex;
+}
+
+.sdlc .boxsdlc{
+    width: 50%;
+    padding: 20px;
+    border: 1px grey solid;
+}
+
+/* projects */
+
+.projects{
+    padding: 50px 0 50px 0;
+    background: #f4f4f4;
+}
+
+.projects h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.projects .sec{
+    display: flex;
+}
+
+.projects .sec h4{
+    font-size: 20px;
+}
+
+.projects .secBox{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projects .secBox img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.projects .secBox p{
+    font-weight: bold;
+}
+
+/* footer */
+
+footer{
+    padding: 20px 0 20px 0;
+    background: rgb(35, 35, 110);
+}
+
+footer .container{
+    display: flex;
+}
+
+footer .contact,
+footer .address{
+    width: 50%;
+    padding: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+
+footer .contact a{
+    color: #fff;
+    font-style: italic;
+}
+
+/* modal */
+
+.modal-body h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.modal-body p{
+    font-size: 13px;
+}

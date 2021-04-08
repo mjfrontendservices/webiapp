@@ -1,0 +1,22 @@
+{
+    "short_name": "App manifestation",
+    "name": "App manifestation",
+    "description": "Lorem ipsum app manifest",
+    "icons": [
+        {
+            "src": "./logo-96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./logobig.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "theme_color": "#000",
+    "start_url": "./_app.html",
+    "display": "standalone",
+    "background_color": "#000",
+    "orientation": "portrait"
+}
